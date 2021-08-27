@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         body: SizedBox.expand(
             child: Container(
                 color: Color(0xFF070337),
-                child: Column(children: [
+                child: ListView(children: [
                   ButtonLayout('Daily'),
                   ButtonLayout('Regular'),
                   ButtonLayout('Projects'),
